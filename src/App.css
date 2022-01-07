@@ -1,0 +1,46 @@
+.button{
+  margin: 10px; 
+}
+.Header{
+ margin-bottom: auto;
+ background-color: green;
+ background: green;
+}
+.App-intro{
+  margin-top: 80px;
+  padding-top: 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.container{
+  display:  flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: auto;
+  width: 70%;
+  border: 1px solid #dfdfdf;
+  padding: 10px;
+  background:rgba(255,240,208,0.5)
+}
+.Link{
+  margin: 5px;
+  border: 1px solid #dfdfdf;
+  background-color: ghostwhite;
+}
+.bg{
+
+  background-image: url('https://i.imgflip.com/3m7nbb.png'),url('https://pbs.twimg.com/media/C1gmslMWgAA88c6?format=jpg&name=small'); 
+  background-repeat: no-repeat;
+  background-position: left top, right top ;
+}
+.App {
+  text-align: center;
+  background-image: url('https://i.imgflip.com/3m7nbb.png'),url('https://pbs.twimg.com/media/C1gmslMWgAA88c6?format=jpg&name=small'); 
+  background-repeat: no-repeat;
+  background-position: left top, right top ;
+  background-size: "cover";
+  height: 100vh;
+}
+
+
