@@ -17,7 +17,7 @@ const Header = (props) => {
 					<div className="Link"><Link to="login">Login</Link></div>
 					) : (<div className="Link" onClick={()=>props.logout()}><Link to="">Logout</Link></div>)
 				}
-					<div className="Link"><Link to="/"><i className="fa fa-home"></i>Home</Link></div>
+					<div className="Link" onClick={()=>props.refresh()}><Link to="/"><i className="fa fa-home"></i>Home</Link></div>
 					<div className="Link"><Link to="help">Help</Link></div>
 			</div>
 		</div>

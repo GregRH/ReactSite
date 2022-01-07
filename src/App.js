@@ -23,15 +23,18 @@ function App() {
    setTest(test+1) 
     console.log(test)
   } 
+  function handleRefresh(){
+    
+  }
   return (
   <div className="App">
     <div className="Header">
-      <Header count={test} username={user.username} logout={handleLogout}/>
+      <Header count={test} username={user.username} logout={handleLogout} refresh={handleRefresh}/>
     </div>
     <div className="App-intro">
       <Routes>
         <Route path="/" exact element={<Home username={user.username}/>}/>
-        <Route path="/login" exact element={<Login signin={handleSignIn}/>}/>
+        <Route path="/login" exact element={<Login signin={handleSignIn} />}/>
         <Route path="/help" exact element={<Help func={handleFunc} count={test}/>}/>
       </Routes>
     </div>
